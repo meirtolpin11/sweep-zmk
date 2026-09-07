@@ -69,7 +69,7 @@ firmware supports it. For the full decision guide, see
 
 ## Keymap Summary (Sofle Mirrored)
 
-![Ferris Sweep Sofle Mirrored Layout](docs/images/layout.jpg)
+![Ferris Sweep Sofle Mirrored Layout](docs/images/layout.svg)
 
 This configuration mirrors the Sofle ergonomic setup (`mtolpin-ergo-setup`) on the 34-key Ferris Sweep:
 
