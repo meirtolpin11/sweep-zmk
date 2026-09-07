@@ -90,6 +90,8 @@ This configuration mirrors the Sofle ergonomic setup (`mtolpin-ergo-setup`) on t
   - `L + ;` = `'`
   - `Z + X` = Language Switch Macro
   - `X + C` = Close Tab Macro
+  - `Both Left Thumbs` (`Shift + Space`) = **Left Half Bootloader**
+  - `Both Right Thumbs` (`Enter + Backspace`) = **Right Half Bootloader**
 
 ## Bootloader and Flashing Notes
 

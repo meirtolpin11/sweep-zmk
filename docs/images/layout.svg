@@ -41,15 +41,15 @@
         <text x="25" y="30" font-size="15" font-weight="700" fill="#58a6ff">Combos &amp; Shortcuts</text>
         
         <g transform="translate(25, 45)">
-            <text x="0" y="20" font-size="12.5" fill="#c9d1d9"><tspan font-weight="700" fill="#79c0ff">Q + W</tspan> : ESC</text>
-            <text x="140" y="20" font-size="12.5" fill="#c9d1d9"><tspan font-weight="700" fill="#79c0ff">A + S</tspan> : TAB</text>
-            <text x="280" y="20" font-size="12.5" fill="#c9d1d9"><tspan font-weight="700" fill="#79c0ff">O + P</tspan> : BSPC</text>
-            <text x="420" y="20" font-size="12.5" fill="#c9d1d9"><tspan font-weight="700" fill="#79c0ff">I + O</tspan> : DEL</text>
-            <text x="550" y="20" font-size="12.5" fill="#c9d1d9"><tspan font-weight="700" fill="#79c0ff">L + ;</tspan> : ' (Quote)</text>
-            <text x="690" y="20" font-size="12.5" fill="#c9d1d9"><tspan font-weight="700" fill="#79c0ff">Z + X</tspan> : Switch Lang (Win)</text>
-            <text x="880" y="20" font-size="12.5" fill="#c9d1d9"><tspan font-weight="700" fill="#79c0ff">X + C</tspan> : Close Tab</text>
+            <text x="0" y="20" font-size="12" fill="#c9d1d9"><tspan font-weight="700" fill="#79c0ff">Q + W</tspan> : ESC</text>
+            <text x="120" y="20" font-size="12" fill="#c9d1d9"><tspan font-weight="700" fill="#79c0ff">A + S</tspan> : TAB</text>
+            <text x="240" y="20" font-size="12" fill="#c9d1d9"><tspan font-weight="700" fill="#79c0ff">O + P</tspan> : BSPC</text>
+            <text x="360" y="20" font-size="12" fill="#c9d1d9"><tspan font-weight="700" fill="#79c0ff">I + O</tspan> : DEL</text>
+            <text x="470" y="20" font-size="12" fill="#c9d1d9"><tspan font-weight="700" fill="#79c0ff">L + ;</tspan> : ' (Quote)</text>
+            <text x="590" y="20" font-size="12" fill="#c9d1d9"><tspan font-weight="700" fill="#79c0ff">Z + X</tspan> : Switch Lang</text>
+            <text x="730" y="20" font-size="12" fill="#c9d1d9"><tspan font-weight="700" fill="#79c0ff">X + C</tspan> : Close Tab</text>
             
-            <text x="0" y="48" font-size="12" fill="#8b949e">Windows Layer: Toggle via Tri-layer <tspan fill="#e3b341">WinTog</tspan> key to switch Left Home Row to <tspan fill="#4ec9b0">S=Alt, D=Win, F=Ctrl</tspan>.</text>
+            <text x="0" y="48" font-size="12" fill="#c9d1d9"><tspan font-weight="700" fill="#e06c75">Left Thumbs (Shift+Space)</tspan> : Left Bootloader    |    <tspan font-weight="700" fill="#e06c75">Right Thumbs (Enter+Bksp)</tspan> : Right Bootloader</text>
         </g>
     </g>
 

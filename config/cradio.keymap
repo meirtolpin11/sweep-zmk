@@ -162,6 +162,18 @@
             key-positions = <21 22>;
             bindings = <&close_tab>;
         };
+
+        combo_left_bootloader {
+            timeout-ms = <50>;
+            key-positions = <30 31>;
+            bindings = <&bootloader>;
+        };
+
+        combo_right_bootloader {
+            timeout-ms = <50>;
+            key-positions = <32 33>;
+            bindings = <&bootloader>;
+        };
     };
 
     conditional_layers {
