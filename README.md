@@ -75,10 +75,10 @@ This configuration mirrors the Sofle ergonomic setup (`mtolpin-ergo-setup`) on t
 
 - **Base Layer (Mac / Windows)**: QWERTY layout with Home Row Modifiers and standard `;` and `/` positions.
 - **Thumbs**: 
-  - Left Outer: `Space` (Tap) / `Shift` (Hold)
-  - Left Inner: **Lower Layer** (`mo LEF`)
-  - Right Inner: **Raise Layer** (`mo RIG`)
-  - Right Outer: `Enter` (Tap) / `Shift` (Hold)
+  - Left Key under `V`: **Lower Layer** (`mo LEF`)
+  - Left Key under `B`: `Space` (Tap) / `Shift` (Hold)
+  - Right Key under `N`: `Enter` (Tap) / `Shift` (Hold)
+  - Right Key under `M`: **Raise Layer** (`mo RIG`)
 - **Lower Layer (Left Thumb Hold)**: Left-hand ESDF Arrow Navigation + Right-hand 10-key Numpad block.
 - **Raise Layer (Right Thumb Hold)**: Brackets (`{}`, `()`, `[]`) on right hand + math/code symbols (`-`, `_`, `=`, `+`, `\`, `:`).
 - **Tri Layer (Function & BT)**: Activated when holding both thumb layer keys simultaneously (`F1-F12`, Bluetooth profiles, Soft-off, Studio unlock).
