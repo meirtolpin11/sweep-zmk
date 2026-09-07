@@ -67,23 +67,29 @@ For quick keymap edits, use [ZMK Studio](https://zmk.studio/) when this
 firmware supports it. For the full decision guide, see
 [How to Update Keymaps](https://nxtkb.com/docs/setup/keymap/how-to-update-keymaps/).
 
-## Keymap Summary
+## Keymap Summary (Sofle Mirrored)
 
-The complete diagrams and layer-by-layer explanations live on the website:
+![Ferris Sweep Sofle Mirrored Layout](docs/images/layout.jpg)
 
-- [Ferris Sweep Keymap](https://nxtkb.com/docs/setup/keymap/ferris-sweep-keymap/)
-- [Ferris Sweep 键位映射](https://nxtkb.com/zh/docs/setup/keymap/ferris-sweep-keymap/)
-- [View the latest keymap in keymap-drawer](https://keymap-drawer.streamlit.app/?zmk_url=https%3A%2F%2Fgithub.com%2Fnxtkb%2Fzmk-config-4-ferris-sweep%2Fblob%2Fmain%2Fconfig%2Fcradio.keymap)
+This configuration mirrors the Sofle ergonomic setup (`mtolpin-ergo-setup`) on the 34-key Ferris Sweep:
 
-Current default layers:
-
-- Default / Windows layer: character input with home-row modifiers.
-- Numbers and navigation layer: hold the right `TAB` layer key.
-- Symbols layer: hold the left `TAB` layer key.
-- Function layer: hold both `TAB` layer keys for Bluetooth profiles, output
-  switching, Windows-layer toggle, ZMK Studio unlock, and soft off.
-- Mouse layer: enter from the symbols layer with `SPACE`, then leave with `P`
-  or `Q`.
+- **Base Layer (Mac / Windows)**: QWERTY layout with Home Row Modifiers and standard `;` and `/` positions.
+- **Thumbs**: 
+  - Left Outer: `Shift`
+  - Left Inner: `Space` (Tap) / **Lower Layer** (Hold)
+  - Right Inner: `Enter` (Tap) / **Raise Layer** (Hold)
+  - Right Outer: `Backspace`
+- **Lower Layer (Left Thumb Hold)**: Left-hand ESDF Arrow Navigation + Right-hand 10-key Numpad block.
+- **Raise Layer (Right Thumb Hold)**: Brackets (`{}`, `()`, `[]`) on right hand + math/code symbols (`-`, `_`, `=`, `+`, `\`, `:`).
+- **Tri Layer (Function & BT)**: Activated when holding both thumb layer keys simultaneously (`F1-F12`, Bluetooth profiles, Soft-off, Studio unlock).
+- **Combos**:
+  - `Q + W` = `ESC`
+  - `A + S` = `TAB`
+  - `O + P` = `BSPC`
+  - `I + O` = `DEL`
+  - `L + ;` = `'`
+  - `Z + X` = Language Switch Macro
+  - `X + C` = Close Tab Macro
 
 ## Bootloader and Flashing Notes
 
