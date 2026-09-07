@@ -202,7 +202,7 @@
             &kp PSCRN       &kp INS        &kp UP         &kp PG_UP      &kp PRCNT       &kp KP_SLASH   &kp N7  &kp N8  &kp N9  &kp KP_MINUS
             &kp ESC         &kp LEFT       &kp DOWN       &kp RIGHT      &kp PG_DN       &kp KP_EQUAL   &kp N4  &kp N5  &kp N6  &kp KP_PLUS
             &out OUT_TOG    &kp C_PREV     &kp C_NEXT     &kp HASH       &kp C_PP        &kp KP_ASTERISK &kp N1  &kp N2  &kp N3  &kp KP_DOT
-                                           &trans         &trans                         &kp N0         &kp BSPC
+                                           &trans         &trans                         &kp BSPC       &kp N0
             >;
         };
 
