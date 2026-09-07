@@ -194,7 +194,7 @@
             &kp Q  &kp W       &kp E        &kp R        &kp T         &kp Y      &kp U        &kp I        &kp O       &kp P
             &kp A  &ht LALT S  &ht LCTRL D  &ht LGUI F   &kp G         &kp H      &ht RGUI J   &ht RCTRL K  &ht RALT L  &kp SEMI
             &kp Z  &kp X       &kp C        &kp V        &kp B         &kp N      &kp M        &kp COMMA    &kp DOT     &kp FSLH
-                               &kp LSHIFT   &lt LEF SPACE              &lt RIG RET &kp BSPC
+                               &ht LSHIFT SPACE &mo LEF                &mo RIG    &ht RSHIFT RET
             >;
         };
 
@@ -204,7 +204,7 @@
             &kp Q  &kp W       &kp E        &kp R        &kp T         &kp Y      &kp U        &kp I        &kp O       &kp P
             &kp A  &ht LALT S  &ht LGUI D   &ht LCTRL F  &kp G         &kp H      &ht RCTRL J  &ht RGUI K   &ht RALT L  &kp SEMI
             &kp Z  &kp X       &kp C        &kp V        &kp B         &kp N      &kp M        &kp COMMA    &kp DOT     &kp FSLH
-                               &kp LSHIFT   &lt LEF SPACE              &lt RIG RET &kp BSPC
+                               &ht LSHIFT SPACE &mo LEF                &mo RIG    &ht RSHIFT RET
             >;
         };
 
