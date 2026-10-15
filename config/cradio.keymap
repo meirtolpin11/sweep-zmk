@@ -95,8 +95,9 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
         };
         d_ctrl_morph: d_ctrl_morph {
@@ -122,55 +123,70 @@
         compatible = "zmk,combos";
 
         combo_esc {
-            timeout-ms = <50>;
+            timeout-ms = <60>;
+            require-prior-idle-ms = <150>;
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
 
         combo_tab {
-            timeout-ms = <50>;
+            timeout-ms = <60>;
+            require-prior-idle-ms = <150>;
             key-positions = <10 11>;
             bindings = <&kp TAB>;
         };
 
         combo_bspc {
-            timeout-ms = <50>;
+            timeout-ms = <60>;
+            require-prior-idle-ms = <150>;
             key-positions = <8 9>;
             bindings = <&kp BSPC>;
         };
 
+        combo_jk_bspc {
+            timeout-ms = <60>;
+            require-prior-idle-ms = <150>;
+            key-positions = <16 17>;
+            bindings = <&kp BSPC>;
+            layers = <MAC WIN>;
+        };
+
         combo_del {
-            timeout-ms = <50>;
+            timeout-ms = <60>;
+            require-prior-idle-ms = <150>;
             key-positions = <7 8>;
             bindings = <&kp DEL>;
         };
 
         combo_sqt {
-            timeout-ms = <50>;
+            timeout-ms = <60>;
+            require-prior-idle-ms = <150>;
             key-positions = <18 19>;
             bindings = <&kp SQT>;
         };
 
         combo_lang {
-            timeout-ms = <50>;
+            timeout-ms = <60>;
+            require-prior-idle-ms = <150>;
             key-positions = <20 21>;
             bindings = <&switch_lang_windows_caps>;
         };
 
         combo_close_tab {
-            timeout-ms = <50>;
+            timeout-ms = <60>;
+            require-prior-idle-ms = <150>;
             key-positions = <21 22>;
             bindings = <&close_tab>;
         };
 
         combo_left_bootloader {
-            timeout-ms = <50>;
+            timeout-ms = <60>;
             key-positions = <30 31>;
             bindings = <&bootloader>;
         };
 
         combo_right_bootloader {
-            timeout-ms = <50>;
+            timeout-ms = <60>;
             key-positions = <32 33>;
             bindings = <&bootloader>;
         };
@@ -191,9 +207,9 @@
         mac_layer {
             display-name = "Mac";
             bindings = <
-            &kp Q  &kp W       &kp E        &kp R        &kp T         &kp Y      &kp U        &kp I        &kp O       &kp P
-            &kp A  &ht LALT S  &ht LCTRL D  &ht LGUI F   &kp G         &kp H      &ht RGUI J   &ht RCTRL K  &ht RALT L  &kp SEMI
-            &kp Z  &kp X       &kp C        &kp V        &kp B         &kp N      &kp M        &kp COMMA    &kp DOT     &kp FSLH
+            &kp Q  &kp W       &kp E        &kp R        &kp T         &kp Y        &kp U        &kp I        &kp O       &kp P
+            &kp A  &ht LALT S  &ht LGUI D   &ht LCTRL F  &ht LSHFT G   &ht RSHFT H  &ht RCTRL J  &ht RGUI K   &ht RALT L  &kp SEMI
+            &kp Z  &kp X       &kp C        &kp V        &kp B         &kp N        &kp M        &kp COMMA    &kp DOT     &kp FSLH
                                &mo LEF      &ht LSHIFT SPACE           &ht RSHIFT RET &mo RIG
             >;
         };
@@ -201,9 +217,9 @@
         windows_layer {
             display-name = "Windows";
             bindings = <
-            &kp Q  &kp W       &kp E        &kp R        &kp T         &kp Y      &kp U        &kp I        &kp O       &kp P
-            &kp A  &ht LALT S  &ht LGUI D   &ht LCTRL F  &kp G         &kp H      &ht RCTRL J  &ht RGUI K   &ht RALT L  &kp SEMI
-            &kp Z  &kp X       &kp C        &kp V        &kp B         &kp N      &kp M        &kp COMMA    &kp DOT     &kp FSLH
+            &kp Q  &kp W       &kp E        &kp R        &kp T         &kp Y        &kp U        &kp I        &kp O       &kp P
+            &kp A  &ht LALT S  &ht LCTRL D  &ht LGUI F   &ht LSHFT G   &ht RSHFT H  &ht RGUI J   &ht RCTRL K  &ht RALT L  &kp SEMI
+            &kp Z  &kp X       &kp C        &kp V        &kp B         &kp N        &kp M        &kp COMMA    &kp DOT     &kp FSLH
                                &mo LEF      &ht LSHIFT SPACE           &ht RSHIFT RET &mo RIG
             >;
         };
